@@ -1,0 +1,84 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python environments and bytecode
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test, lint, type-check, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Local agent/tool state
+.codex/
+.agents/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Raw source datasets are public but are not versioned in this repository.
+data/raw/*
+!data/raw/README.md
+
+# Reproducible generated datasets are not versioned.
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models and generated binary artifacts are reproducible outputs.
+artifacts/*
+!artifacts/.gitkeep
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Large local presentation/demo exports are submitted separately.
+*.mp4
+*.mov
+*.avi
