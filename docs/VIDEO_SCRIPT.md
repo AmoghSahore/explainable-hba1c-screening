@@ -1,7 +1,4 @@
 # Three-minute pitch and live-demo script
-
-This script follows the faculty's required timing exactly and uses the final full-run results.
-
 ## 0:00–0:35 — problem and beneficiaries
 
 “Prediabetes and diabetes can remain unnoticed until complications develop. In clinics with limited laboratory capacity, universal HbA1c testing may be difficult. Our Mission Health project screens adults older than 18 for current elevated HbA1c so healthcare workers can prioritize confirmatory testing. The beneficiaries are adults needing early follow-up and clinics allocating limited tests. This is a screening-support prototype, not a diagnosis.”
