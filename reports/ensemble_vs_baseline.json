@@ -1,0 +1,6 @@
+{
+  "baseline_test_roc_auc": 0.7709387843391737,
+  "stacking_test_roc_auc": 0.7812513519359724,
+  "stacking_minus_baseline_roc_auc": 0.01031256759679866,
+  "stacking_outperformed_baseline_roc_auc": true
+}

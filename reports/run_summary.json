@@ -1,0 +1,94 @@
+{
+  "selected_model": "random_forest",
+  "selected_threshold": 0.36499999999999994,
+  "data_audit": {
+    "source_rows": {
+      "demo": 11933,
+      "bmx": 8860,
+      "bpxo": 7801,
+      "paq": 8153,
+      "smq": 9015,
+      "ghb": 7199
+    },
+    "adult_demo_rows": 7969,
+    "analytic_rows": 5872,
+    "positive_target_rows": 2300,
+    "negative_target_rows": 3572,
+    "positive_target_rate": 0.3916893732970027,
+    "minimum_age": 19,
+    "maximum_age_code": 80,
+    "age_19_rows": 105,
+    "age_19_missing_education_rows": 105,
+    "missing_by_feature": {
+      "age": 0,
+      "income_ratio": 752,
+      "bmi": 84,
+      "waist_cm": 269,
+      "mean_systolic_bp": 186,
+      "mean_diastolic_bp": 186,
+      "moderate_activity_min_week": 43,
+      "vigorous_activity_min_week": 36,
+      "sedentary_min_day": 42,
+      "sex": 0,
+      "education": 107,
+      "smoking_history": 7,
+      "current_smoking": 7
+    },
+    "complete_case_rows": 4652,
+    "target_definition": "LBXGH >= 5.7%",
+    "age_filter": "RIDAGEYR > 18",
+    "unit_of_analysis": "One NHANES examined adult respondent"
+  },
+  "split_summary": {
+    "train": {
+      "rows": 4110,
+      "positive_rows": 1610,
+      "positive_rate": 0.39172749391727496
+    },
+    "validation": {
+      "rows": 881,
+      "positive_rows": 345,
+      "positive_rate": 0.39160045402951194
+    },
+    "test": {
+      "rows": 881,
+      "positive_rows": 345,
+      "positive_rate": 0.39160045402951194
+    }
+  },
+  "ensemble_comparison": {
+    "baseline_test_roc_auc": 0.7709387843391737,
+    "stacking_test_roc_auc": 0.7812513519359724,
+    "stacking_minus_baseline_roc_auc": 0.01031256759679866,
+    "stacking_outperformed_baseline_roc_auc": true
+  },
+  "screening_impact": {
+    "basis": "Untouched test set, scaled to 100 screened adults",
+    "lab_referrals_per_100": 65.83427922814982,
+    "elevated_cases_captured_per_100": 35.18728717366629,
+    "elevated_cases_missed_per_100": 3.9727582292849033,
+    "false_referrals_per_100": 30.64699205448354,
+    "warning": "Simulated sample impact, not observed clinical impact."
+  },
+  "explanation_summary": {
+    "background_rows": 40,
+    "globally_explained_test_rows": 80,
+    "synthetic_probability": 0.7910948785499401,
+    "synthetic_record": {
+      "age": 58.0,
+      "income_ratio": 1.8,
+      "bmi": 34.0,
+      "waist_cm": 112.0,
+      "mean_systolic_bp": 145.0,
+      "mean_diastolic_bp": 88.0,
+      "moderate_activity_min_week": 30.0,
+      "vigorous_activity_min_week": 0.0,
+      "sedentary_min_day": 600.0,
+      "sex": "Male",
+      "education": "High school/GED",
+      "smoking_history": "Ever",
+      "current_smoking": "Current"
+    },
+    "base_value": 0.47102870786664275
+  }
+}

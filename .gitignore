@@ -43,6 +43,7 @@ htmlcov/
 # Local agent/tool state
 .codex/
 .agents/
+.cache/
 
 # Operating-system metadata
 .DS_Store

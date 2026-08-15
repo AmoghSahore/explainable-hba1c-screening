@@ -1,0 +1,21 @@
+{
+  "background_rows": 40,
+  "globally_explained_test_rows": 80,
+  "synthetic_probability": 0.7910948785499401,
+  "synthetic_record": {
+    "age": 58.0,
+    "income_ratio": 1.8,
+    "bmi": 34.0,
+    "waist_cm": 112.0,
+    "mean_systolic_bp": 145.0,
+    "mean_diastolic_bp": 88.0,
+    "moderate_activity_min_week": 30.0,
+    "vigorous_activity_min_week": 0.0,
+    "sedentary_min_day": 600.0,
+    "sex": "Male",
+    "education": "High school/GED",
+    "smoking_history": "Ever",
+    "current_smoking": "Current"
+  },
+  "base_value": 0.47102870786664275
+}

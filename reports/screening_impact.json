@@ -1,0 +1,8 @@
+{
+  "basis": "Untouched test set, scaled to 100 screened adults",
+  "lab_referrals_per_100": 65.83427922814982,
+  "elevated_cases_captured_per_100": 35.18728717366629,
+  "elevated_cases_missed_per_100": 3.9727582292849033,
+  "false_referrals_per_100": 30.64699205448354,
+  "warning": "Simulated sample impact, not observed clinical impact."
+}

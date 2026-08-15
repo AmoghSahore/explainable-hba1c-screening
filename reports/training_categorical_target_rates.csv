@@ -1,0 +1,15 @@
+feature,group,elevated_rate,n
+sex,Female,0.37706381079875056,2241
+sex,Male,0.40930979133226325,1869
+education,9-11th grade/no diploma,0.5538922155688623,334
+education,College graduate or above,0.30795610425240055,1458
+education,High school/GED,0.4467564259485924,817
+education,Less than 9th grade,0.6808510638297872,188
+education,Not collected/unknown,0.02702702702702703,74
+education,Some college/AA,0.38821630347054076,1239
+smoking_history,Ever,0.44597014925373135,1675
+smoking_history,Never,0.35390946502057613,2430
+smoking_history,Not collected/unknown,0.6,5
+current_smoking,Current,0.4559322033898305,590
+current_smoking,Not collected/unknown,0.6,5
+current_smoking,Not current,0.3806543385490754,3515

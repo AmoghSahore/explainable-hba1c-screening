@@ -1,0 +1,14 @@
+feature,display_name,value,shap_value
+sedentary_min_day,Sedentary time (min/day),600.0,-0.01336032605560078
+moderate_activity_min_week,Moderate activity (min/week),30.0,-0.0019453610624300677
+mean_diastolic_bp,Mean diastolic BP (mmHg),88.0,0.0031279130739743644
+sex,Sex recorded by NHANES,Male,0.006323156270921559
+smoking_history,Smoking history,Ever,0.0070999305691152315
+current_smoking,Current smoking,Current,0.007278410964917215
+education,Education,High school/GED,0.01597260983924409
+vigorous_activity_min_week,Vigorous activity (min/week),0.0,0.018630835640839005
+income_ratio,Family income-to-poverty ratio,1.8,0.023445817018078907
+mean_systolic_bp,Mean systolic BP (mmHg),145.0,0.04492807960272355
+bmi,BMI (kg/m²),34.0,0.06242480040924539
+age,Age (years),58.0,0.0685085371136514
+waist_cm,Waist circumference (cm),112.0,0.07763176729861804

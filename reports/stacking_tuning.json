@@ -1,0 +1,14 @@
+[
+  {
+    "final_estimator_C": 0.1,
+    "validation_roc_auc": 0.7889573869781527
+  },
+  {
+    "final_estimator_C": 1.0,
+    "validation_roc_auc": 0.7888654553320354
+  },
+  {
+    "final_estimator_C": 10.0,
+    "validation_roc_auc": 0.7887194462470256
+  }
+]
